@@ -1,5 +1,9 @@
-var arrays = ["Alex", "Dylan", "Tessie", "Amy", "Brian"];
+var friendsArray = ["Alex", "Dylan", "Tessie", "Amy", "Brian"];
+var placesArray = ["Sedona", "Yosemite", "Japan", "Philippines", "South Korea"];
 
-console.log(arrays[2]);
-console.log(arrays[4]);
-console.log(arrays[0]);
+console.log(friendsArray[2]);
+console.log(friendsArray[4]);
+console.log(friendsArray[0]);
+
+placesArray.push(5);
+console.log(placesArray[5]);
